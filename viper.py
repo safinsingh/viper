@@ -41,20 +41,15 @@ def NewDrawCanvas(turtleColor = "black", bgColor = "white", speed = 1, thickness
     t.pensize(thickness)
     t.color(turtleColor)
 
-def DrawSquare(side):
+def DrawSquare(side=10):
     for i in range(4):
         t.forward(side*10)
         t.left(90)
 
-def DrawSquare(side):
-    for i in range(4):
-        t.forward(side*10)
-        t.left(90)
-
-def DrawCircle(radius):
+def DrawCircle(radius=10):
     t.circle(radius*10)
 
-def DrawOddStar(points,length = 100):
+def DrawOddStar(points=5,length = 100):
     if points % 2 == 1:
         angle = 180 - 180 / points
         for i in range(n):
@@ -69,10 +64,10 @@ def MovePen(x_off,y_off):
     t.seth(0)
     t.pendown()
 
-def DrawLine(length):
+def DrawLine(length=10):
     t.forward(length*10)
 
-def RotTurtle(deg):
+def RotTurtle(deg=90):
     t.right(deg)
 
 def ChangeColor(clr):
