@@ -1,5 +1,5 @@
 # Viper
-🚀 Python-based programming language for beginners transitioning from block programming languages
+🚀 Python-based programming language for beginners transitioning from block programming languages created by Safin Singh
 
 ![](./assets/ss.png)
 
