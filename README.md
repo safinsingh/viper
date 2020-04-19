@@ -1,5 +1,5 @@
 # Viper
-🚀 Python-based programming language for beginners coming from block programming languages
+🚀 Python-based programming language for beginners transitioning from block programming languages
 
 ![](./assets/ss.png)
 
