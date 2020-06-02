@@ -49,13 +49,6 @@ def DrawSquare(side=10):
 def DrawCircle(radius=10):
     t.circle(radius*10)
 
-def DrawOddStar(points=5,length = 100):
-    if points % 2 == 1:
-        angle = 180 - 180 / points
-        for i in range(n):
-            t.forward(200)
-            t.right(angle)
-
 def MovePen(x_off,y_off):
     t.penup()
     curX = t.xcor()
